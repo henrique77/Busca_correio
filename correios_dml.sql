@@ -1,0 +1,46 @@
+insert into estados(sigla, nome) values ('BA', 'Bahia');
+insert into estados(sigla, nome) values ('MA', 'Maranhão');
+insert into estados(sigla, nome) values ('AM', 'Amazonas');
+insert into estados(sigla, nome) values ('RJ', 'Rio de Janeiro');
+insert into estados(sigla, nome) values ('SP', 'São Paulo');
+insert into estados(sigla, nome) values ('MG', 'Minas Gerais');
+
+insert into cidades(nome, cep_c, sigla_uf) values ('Livramento de Nossa Senhora', '45140-000', 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('São Luís', NULL, 'MA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Manaus', NULL, 'AM');
+insert into cidades(nome, cep_c, sigla_uf) values ('Barreiras', NULL, 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Eunapolis', NULL, 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Feira de Santana', NULL, 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Ilheus', NULL, 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Jequie', NULL, 'BA');
+insert into cidades(nome, cep_c, sigla_uf) values ('Vitoria da Conquista', NULL, 'BA');
+
+insert into bairros (nome, cidade_id) values ('Vila Luizão',2);
+insert into bairros (nome, cidade_id) values ('Coroado',3);
+insert into bairros (nome, cidade_id) values ('Serra do Mimo',4);
+insert into bairros (nome, cidade_id) values ('Centro',5);
+insert into bairros (nome, cidade_id) values ('Doutor Gusmão',5);
+insert into bairros (nome, cidade_id) values ('Pequi',5);
+insert into bairros (nome, cidade_id) values ('Santa Mônica',6);
+insert into bairros (nome, cidade_id) values ('Malhada',7);
+insert into bairros (nome, cidade_id) values ('água Branca',8);
+insert into bairros (nome, cidade_id) values ('Pompilio Sampaio',8);
+insert into bairros (nome, cidade_id) values ('São Judas Tadeu',8);
+insert into bairros (nome, cidade_id) values ('Boa Vista',9);
+insert into bairros (nome, cidade_id) values ('Candeias',9);
+insert into bairros (nome, cidade_id) values ('Recreio',9);
+
+insert into logradouros(descricao, cep, bairro_id) values ('Rua Luis Eduardo', '65068-633', 1);
+insert into logradouros(descricao, cep, bairro_id) values ('Rua Luis Eduardo Magalhaes', '69082-471', 2);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '47802-502', 3);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45820-310', 4);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45821-000', 5);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45828-000', 6);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Deputado Luis Eduardo Magalhaes', '44078-135', 7);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45651-61', 8);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Deputado Luis Eduardo Magalhaes', '45206-805', 9);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Deputado Luis Eduardo Magalhaes', '45206-285', 10);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Deputado Luis Eduardo Magalhaes', '45204-125', 11);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45026-000', 12);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45028-440', 13);
+insert into logradouros(descricao, cep, bairro_id) values ('Avenida Luis Eduardo Magalhaes', '45020-282', 14);
